@@ -45,7 +45,7 @@ class HomeScreenActivity : ActivityBase(), HomeReceiptAdapter.onClickItemRecipe 
                 return false
             }
             override fun onQueryTextChange(newText: String?): Boolean {
-                adapter.addAllItems(lastReceipts.filter { it.getNameStr().contains(newText!!) || it.getDescriptionStr().contains(newText!!) }.toMutableList())
+                adapter.addAllItems(lastReceipts.filter { it.getNameStr().contains(newText!!) || it.getIngredientsNotNull().contains(newText!!) }.toMutableList())
                 return true
             }
         })

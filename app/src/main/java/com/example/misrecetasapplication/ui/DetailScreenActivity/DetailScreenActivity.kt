@@ -36,7 +36,7 @@ class DetailScreenActivity : AppCompatActivity() {
         binding.imgColapsing.loadReceiptImg(recipe.getImgNotNull())
         binding.recipeDescription.text = recipe.description
         binding.recipeName.text = recipe.name
-
+        binding.ingredients.text = recipe.getIngredientsNotNull()
         binding.fab.setOnClickListener {
             val intent = Intent(this@DetailScreenActivity, MapScreenActivity::class.java)
             intent.putExtra("recipeData", Utils.toJson(recipe))

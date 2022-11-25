@@ -11,8 +11,14 @@ data class ReceiptE(
     var name: String? = "",
     var description: String? = "",
     var receipt_lat: String? = "",
-    var receipt_lng: String? = ""
+    var receipt_lng: String? = "",
+    var ingredients: String? = ""
 ){
+
+    fun getIngredientsNotNull(): String
+    {
+        return if (ingredients != null) ingredients!! else "0.0"
+    }
 
     fun getLatNotNull(): String
     {

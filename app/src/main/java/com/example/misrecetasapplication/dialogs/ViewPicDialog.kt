@@ -38,7 +38,7 @@ class ViewPicDialog : DialogFragment() {
 
             title = arguments?.getString("title").toString()
         }
-
+//*testtt
     }
 
     @SuppressLint("ClickableViewAccessibility")
