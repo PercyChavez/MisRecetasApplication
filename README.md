@@ -19,6 +19,12 @@
   -> Uso de onSaveInstanceState y onRestoreInstanceState para guardar y recuperar la data por si el usuario pasa mucho tiempo fuera del app, ya que se reinicia todo.
 =========================
 
+![alt text](https://yp-challenge.s3.amazonaws.com/WhatsApp+Image+2022-11-25+at+5.56.53+AM+(2).jpeg)
+![alt text](https://yp-challenge.s3.amazonaws.com/WhatsApp+Image+2022-11-25+at+5.58.49+AM.jpeg)
+![alt text](https://yp-challenge.s3.amazonaws.com/WhatsApp+Image+2022-11-25+at+5.56.53+AM+(1).jpeg)
+![alt text](https://yp-challenge.s3.amazonaws.com/WhatsApp+Image+2022-11-25+at+5.56.53+AM.jpeg)
+![alt text](https://yp-challenge.s3.amazonaws.com/WhatsApp+Image+2022-11-25+at+5.56.53+AM+(3).jpeg)
+
 
 - SOLID 
   -> activity, response base (herencia, polimorfismo, abstracción, encapsulamiento)
