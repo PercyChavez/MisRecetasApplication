@@ -1,0 +1,15 @@
+/build
+/debug
+/release
+
+#built application files
+*.apk
+*.ap_
+*.aab
+
+
+/.idea
+*.iml
+local.properties
+.DS_Store
+.idea
