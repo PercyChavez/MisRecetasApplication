@@ -1,5 +1,12 @@
 # MisRecetasApplication
 
+Kotlin.
+Aplicativo en donde se consume un servicio usando principios solid y arquitectura mvvm.
+
+Servicio realizado en nodejs
+Imágenes subidas en AWS S3
+http://ec2-3-95-227-60.compute-1.amazonaws.com:3101/test_recipe
+
 ========= VISTAS =========
 - Splash 
 - Home Scren Activity 
